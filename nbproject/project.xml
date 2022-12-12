@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Bai9_TrafficLightUartTRAFFIC_LIGH_UART</name>
+            <creation-uuid>90df3ddd-a82d-4ed0-a496-9e207d9a91c8</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>uart</sourceRootElem>
+                <sourceRootElem>button_matrix</sourceRootElem>
+                <sourceRootElem>interrupt</sourceRootElem>
+                <sourceRootElem>timer</sourceRootElem>
+                <sourceRootElem>lcd</sourceRootElem>
+                <sourceRootElem>i2c</sourceRootElem>
+                <sourceRootElem>adc</sourceRootElem>
+                <sourceRootElem>pwm</sourceRootElem>
+                <sourceRootElem>simulate_machine</sourceRootElem>
+                <sourceRootElem>traffic_led</sourceRootElem>
+                <sourceRootElem>led7seg</sourceRootElem>
+                <sourceRootElem>mode_specify</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
