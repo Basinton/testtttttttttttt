@@ -1,10 +1,9 @@
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 71 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 72 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 74 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 75 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 76 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 104 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 105 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 107 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 108 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 109 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 69 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 70 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 71 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 73 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 103 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 104 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 106 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 107 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 108 : call of function without prototype

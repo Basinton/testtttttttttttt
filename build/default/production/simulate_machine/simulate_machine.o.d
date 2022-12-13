@@ -1,6 +1,6 @@
 build/default/production/simulate_machine/simulate_machine.o:  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.c  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/button_matrix/button.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/lcd/lcd.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/simulate_machine/simulate_machine.c  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/simulate_machine/simulate_machine.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/button_matrix/button.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/lcd/lcd.h  \
 

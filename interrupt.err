@@ -1,4 +1,4 @@
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\interrupt\interrupt.c 72 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\interrupt\interrupt.c 84 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\interrupt\interrupt.c 121 : call of function without prototype
-Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\interrupt\interrupt.c 133 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\interrupt\interrupt.c 72 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\interrupt\interrupt.c 84 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\interrupt\interrupt.c 121 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\interrupt\interrupt.c 133 : call of function without prototype

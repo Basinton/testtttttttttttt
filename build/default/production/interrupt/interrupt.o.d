@@ -1,5 +1,5 @@
 build/default/production/interrupt/interrupt.o:  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/interrupt/interrupt.c  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/timer/timer.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/interrupt/interrupt.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/interrupt/interrupt.c  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/timer/timer.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/interrupt/interrupt.h  \
 

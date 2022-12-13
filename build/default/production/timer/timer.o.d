@@ -1,4 +1,4 @@
 build/default/production/timer/timer.o:  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/timer/timer.c  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/timer/timer.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/timer/timer.c  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/timer/timer.h  \
 
