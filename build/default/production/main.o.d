@@ -1,15 +1,15 @@
 build/default/production/main.o:  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.c  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/button_matrix/button.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/timer/timer.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/lcd/lcd.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/i2c/i2c.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/uart/uart.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/pwm/pwm.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/led7seg/led7seg.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/traffic_led/traffic_led.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/interrupt/interrupt.h  \
-	C:/Hoc\ tap/DA\ TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/adc/adc.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/main.c  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/button_matrix/button.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/timer/timer.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/lcd/lcd.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/i2c/i2c.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/uart/uart.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/simulate_machine/simulate_machine.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/pwm/pwm.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/led7seg/led7seg.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/traffic_led/traffic_led.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/main.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/interrupt/interrupt.h  \
+	C:/Users/MyLinh/Documents/GitHub/-n-TKLL/adc/adc.h  \
 

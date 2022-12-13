@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 71 : call of function without prototype
 Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 72 : call of function without prototype
 Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 74 : call of function without prototype
@@ -9,3 +10,14 @@ Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAF
 Warning[2058] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 109 : call of function without prototype
 Warning[2054] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 124 : suspicious pointer conversion
 Warning[2054] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\main.c 125 : suspicious pointer conversion
+=======
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 69 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 70 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 71 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 73 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 103 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 104 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 106 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 107 : call of function without prototype
+Warning[2058] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\main.c 108 : call of function without prototype
+>>>>>>> 49525195b31a682c27005da08ca49fbb00ccaff3

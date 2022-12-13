@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/PROJECT_TRAFFIC_UART.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=PROJECT_TRAFFIC_UART.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=projecttrafficuart/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/_n-TKLL.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=_n-TKLL.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=-n-tkll/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/projecttrafficuart/bin
+makeDirectory ${TMPDIR}/-n-tkll/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/projecttrafficuart.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/-n-tkll.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/projecttrafficuart.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/-n-tkll.tar *
 checkReturnCode
 
 # Cleanup

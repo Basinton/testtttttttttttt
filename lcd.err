@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 71 : expression is always true
 Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 82 : expression is always true
 Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 93 : expression is always true
@@ -5,3 +6,12 @@ Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAF
 Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 178 : expression is always true
 Warning[2056] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 192 : expression is always true
 Warning[2066] C:\Hoc tap\DA TKLL\MPLAB\project\PROJECT_TRAFFIC_UART\PROJECT_TRAFFIC_UART\lcd\lcd.c 273 : type qualifier mismatch in assignment
+=======
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 73 : expression is always true
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 87 : expression is always true
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 101 : expression is always true
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 115 : expression is always true
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 189 : expression is always true
+Warning[2056] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 206 : expression is always true
+Warning[2066] C:\Users\MyLinh\Documents\GitHub\-n-TKLL\lcd\lcd.c 290 : type qualifier mismatch in assignment
+>>>>>>> 49525195b31a682c27005da08ca49fbb00ccaff3

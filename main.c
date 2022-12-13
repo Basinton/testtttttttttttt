@@ -19,19 +19,16 @@ void delay_ms(int value);
 #define     PHASE4              3
 #define     WAIT                4
 
-#define     AUTO_RED1_GREEN2    100
-#define     AUTO_RED1_YELLOW2   101
-#define     AUTO_GREEN1_RED2    102
-#define     AUTO_YELLOW1_RED2   103
+#define     MAN_INIT            200
+#define     MAN_PHASE1          201
+#define     MAN_PHASE2          202
+#define     MAN_PHASE3          203
+#define     MAN_PHASE4          204
 
-#define     MAN_RED1_GREEN2     200
-#define     MAN_RED1_YELLOW2    201
-#define     MAN_GREEN1_RED2     202
-#define     MAN_YELLOW1_RED2    203
-
-#define     TUN_RED             300
-#define     TUN_GREEN           301
-#define     TUN_YELLOW          302
+#define     TUN_INIT            300
+#define     TUN_PHASE1          301
+#define     TUN_PHASE2          302
+#define     TUN_PHASE3          303
 
 #define     BASE_GREEN_TIME     3
 #define     BASE_YELLOW_TIME    2
@@ -39,6 +36,7 @@ void delay_ms(int value);
 #define     WAIT_TIME           10
 
 unsigned char statusOfLight = INIT_SYSTEM;
+unsigned char timeOfRed = BASE_RED_TIME;
 unsigned char timeOfGreen = BASE_GREEN_TIME;
 unsigned char timeOfYellow = BASE_YELLOW_TIME;
 unsigned char timeOf7Seg1 = BASE_RED_TIME;
@@ -70,11 +68,18 @@ void main(void) {
 
             AppTrafficLight();
             fsm_manual();
+            fsm_tuning();
 
             scan_key_matrix_with_uart(); // 8 button
+<<<<<<< HEAD
 //            DisplayDataReceive();
 //            UartDataReceiveProcess();
             DisplayLcdScreen();
+=======
+            //            DisplayDataReceive();
+            //            UartDataReceiveProcess();
+
+>>>>>>> 49525195b31a682c27005da08ca49fbb00ccaff3
         }
 
 
@@ -116,13 +121,17 @@ void AppTrafficLight() {
     switch (statusOfLight) {
         case INIT_SYSTEM: //RED1 GREEN2
             trafficCounter = timeOfGreen;
-            timeOf7Seg1 = timeOfGreen + timeOfYellow;
+            timeOf7Seg1 = timeOfRed;
             timeOf7Seg2 = timeOfGreen;
             setRed1();
             setGreen2();
+<<<<<<< HEAD
             display_led(timeOf7Seg1);
             LcdPrintStringS(0,0,"TRAFFIC PROJECT");
             LcdPrintStringS(1,0,"SYSTEM'S WORKING");
+=======
+
+>>>>>>> 49525195b31a682c27005da08ca49fbb00ccaff3
             statusOfLight = PHASE1;
             break;
         case PHASE1: //RED1 YELLOW2 
@@ -142,13 +151,14 @@ void AppTrafficLight() {
                 statusOfLight = PHASE2;
             }
 
-            if (isButtonEnter(7)) {
+            if (isButtonEnter(0) == 1) {
                 offAllLeds();
                 setRed1();
-                setRed2();
+                setGreen2();
                 waitCounter = WAIT_TIME;
-                statusOfLight = MAN_RED1_GREEN2;
+                statusOfLight = MAN_INIT;
             }
+
             break;
         case PHASE2: //GREEN1 RED2
             display_led(timeOf7Seg1);
@@ -165,9 +175,18 @@ void AppTrafficLight() {
                 setGreen1();
                 setRed2();
                 timeOf7Seg1 = timeOfGreen;
-                timeOf7Seg2 = timeOfGreen + timeOfYellow;
+                timeOf7Seg2 = timeOfRed;
                 statusOfLight = PHASE3;
             }
+
+            if (isButtonEnter(0) == 1) {
+                offAllLeds();
+                setRed1();
+                setGreen2();
+                waitCounter = WAIT_TIME;
+                statusOfLight = MAN_INIT;
+            }
+
             break;
         case PHASE3: //YELLOW1 RED2
             display_led(timeOf7Seg1);
@@ -186,6 +205,15 @@ void AppTrafficLight() {
                 timeOf7Seg1 = timeOfYellow;
                 statusOfLight = PHASE4;
             }
+
+            if (isButtonEnter(0) == 1) {
+                offAllLeds();
+                setRed1();
+                setGreen2();
+                waitCounter = WAIT_TIME;
+                statusOfLight = MAN_INIT;
+            }
+
             break;
         case PHASE4: //RED1 GREEN2
             display_led(timeOf7Seg1);
@@ -201,10 +229,19 @@ void AppTrafficLight() {
                 trafficCounter = timeOfGreen;
                 setRed1();
                 setGreen2();
-                timeOf7Seg1 = timeOfGreen + timeOfYellow;
+                timeOf7Seg1 = timeOfRed;
                 timeOf7Seg2 = timeOfGreen;
                 statusOfLight = PHASE1;
             }
+
+            if (isButtonEnter(0) == 1) {
+                offAllLeds();
+                setRed1();
+                setGreen2();
+                waitCounter = WAIT_TIME;
+                statusOfLight = MAN_INIT;
+            }
+
             break;
         default:
             //            statusOfLight = INIT_SYSTEM;
@@ -214,11 +251,16 @@ void AppTrafficLight() {
 
 void fsm_manual() {
     switch (statusOfLight) {
-        case MAN_RED1_GREEN2:
+        case MAN_INIT:
+            statusOfLight = MAN_PHASE1;
+            setRed1();
+            setGreen2();
+
+            break;
+        case MAN_PHASE1:
             display_led(waitCounter);
             if (secCounter <= 0) {
                 secCounter = 20;
-                blinkReds();
                 waitCounter--;
             }
             secCounter--;
@@ -226,21 +268,89 @@ void fsm_manual() {
             if (waitCounter <= 0) {
                 statusOfLight = INIT_SYSTEM;
             }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = MAN_PHASE2;
+                setRed1();
+                setYellow2();
+                waitCounter = WAIT_TIME;
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = TUN_INIT;
+            }
             break;
 
-        case MAN_RED1_YELLOW2:
-            setRed1();
-            setYellow2();
+        case MAN_PHASE2:
+            display_led(waitCounter);
+            if (secCounter <= 0) {
+                secCounter = 20;
+                waitCounter--;
+            }
+            secCounter--;
+
+            if (waitCounter <= 0) {
+                statusOfLight = INIT_SYSTEM;
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = MAN_PHASE3;
+                setGreen1();
+                setRed2();
+                waitCounter = WAIT_TIME;
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = TUN_INIT;
+            }
             break;
 
-        case MAN_GREEN1_RED2:
-            setGreen1();
-            setRed2();
+        case MAN_PHASE3:
+            display_led(waitCounter);
+            if (secCounter <= 0) {
+                secCounter = 20;
+                waitCounter--;
+            }
+            secCounter--;
+
+            if (waitCounter <= 0) {
+                statusOfLight = INIT_SYSTEM;
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = MAN_PHASE4;
+                setYellow1();
+                setRed2();
+                waitCounter = WAIT_TIME;
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = TUN_INIT;
+            }
             break;
 
-        case MAN_YELLOW1_RED2:
-            setYellow1();
-            setRed2();
+        case MAN_PHASE4:
+            display_led(waitCounter);
+            if (secCounter <= 0) {
+                secCounter = 20;
+                waitCounter--;
+            }
+            secCounter--;
+
+            if (waitCounter <= 0) {
+                statusOfLight = INIT_SYSTEM;
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = MAN_PHASE1;
+                setRed1();
+                setGreen2();
+                waitCounter = WAIT_TIME;
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = TUN_INIT;
+            }
             break;
 
         default:
@@ -248,21 +358,110 @@ void fsm_manual() {
     }
 }
 
-//void fsm_tuning() {
-//    switch (statusOfLight) {
-//        case TUN_RED:
-//            break;
-//
-//        case TUN_GREEN:
-//            break;
-//
-//        case TUN_YELLOW:
-//            break;
-//
-//        default:
-//            break;
-//    }
-//}
+void fsm_tuning() {
+    switch (statusOfLight) {
+        case TUN_INIT:
+            statusOfLight = TUN_PHASE1;
+            offAllLeds();
+            blinkReds();
+            break;
+
+        case TUN_PHASE1:
+            display_led(timeOfRed);
+
+            if (isButtonEnter(2) == 1) {
+                timeOfRed++;
+
+                if (timeOfRed > 99) {
+                    timeOfRed = 1;
+                }
+            }
+
+            if (isButtonEnter(3) == 1) {
+                timeOfRed--;
+
+                if (timeOfRed < 1) {
+                    timeOfRed = 99;
+                }
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = TUN_PHASE2;
+                blinkGreens();
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = INIT_SYSTEM;
+
+            }
+
+            break;
+
+        case TUN_PHASE2:
+            display_led(timeOfGreen);
+
+            if (isButtonEnter(2) == 1) {
+                timeOfGreen++;
+
+                if (timeOfGreen > 99) {
+                    timeOfGreen = 1;
+                }
+            }
+
+            if (isButtonEnter(3) == 1) {
+                timeOfGreen--;
+
+                if (timeOfGreen < 1) {
+                    timeOfGreen = 99;
+                }
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = TUN_PHASE3;
+                blinkYellows();
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = INIT_SYSTEM;
+
+            }
+
+            break;
+
+        case TUN_PHASE3:
+            display_led(timeOfYellow);
+
+            if (isButtonEnter(2) == 1) {
+                timeOfYellow++;
+
+                if (timeOfYellow > 99) {
+                    timeOfYellow = 1;
+                }
+            }
+
+            if (isButtonEnter(3) == 1) {
+                timeOfYellow--;
+
+                if (timeOfYellow < 1) {
+                    timeOfYellow = 99;
+                }
+            }
+
+            if (isButtonEnter(1) == 1) {
+                statusOfLight = TUN_INIT;
+            }
+
+            if (isButtonEnter(0) == 1) {
+                statusOfLight = INIT_SYSTEM;
+
+            }
+
+            break;
+
+        default:
+            break;
+    }
+}
 
 void UartDataReceiveProcess() {
     if (flagOfDataReceiveComplete == 1) {

@@ -4,6 +4,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.c</file>
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/button_matrix/button.h</file>
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/uart/uart.c</file>
@@ -17,6 +18,14 @@
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.h</file>
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/lcd/lcd.c</file>
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/led7seg/led7seg.h</file>
+=======
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/main.c</file>
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/traffic_led/traffic_led.c</file>
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/lcd/lcd.c</file>
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/simulate_machine/simulate_machine.c</file>
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/uart/uart.c</file>
+            <file>file:/C:/Users/MyLinh/Documents/GitHub/-n-TKLL/traffic_led/traffic_led.h</file>
+>>>>>>> 49525195b31a682c27005da08ca49fbb00ccaff3
         </group>
     </open-files>
 </project-private>

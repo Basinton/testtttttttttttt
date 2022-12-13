@@ -9,7 +9,8 @@ void setAllLeds(void) {
 
 void offAllLeds(void) {
     //set off traffic leds
-    control_traffic_led(0x00);
+    cur_status = 0x00;
+    control_traffic_led(cur_status);
 }
 
 void blinkLeds(void) {
@@ -18,16 +19,19 @@ void blinkLeds(void) {
 }
 
 void blinkReds(void){
+    
     cur_status = cur_status ^ 0x48;
     control_traffic_led(cur_status);
 }
 
 void blinkYellows(void){
+    offAllLeds();
     cur_status = cur_status ^ 0x24;
     control_traffic_led(cur_status);
 }
 
 void blinkGreens(void){
+    offAllLeds();
     cur_status = cur_status ^ 0x12;
     control_traffic_led(cur_status);
 }
