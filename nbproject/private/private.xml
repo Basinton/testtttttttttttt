@@ -4,10 +4,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.c</file>
-            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/traffic_led/traffic_led.c</file>
-            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/button_matrix/button.c</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.c</file>
             <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/button_matrix/button.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/uart/uart.c</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/i2c/i2c.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/uart/uart.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.c</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/traffic_led/traffic_led.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/simulate_machine/simulate_machine.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/adc/adc.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/lcd/lcd.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/main.h</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/lcd/lcd.c</file>
+            <file>file:/C:/Hoc%20tap/DA%20TKLL/MPLAB/project/PROJECT_TRAFFIC_UART/PROJECT_TRAFFIC_UART/led7seg/led7seg.h</file>
         </group>
     </open-files>
 </project-private>

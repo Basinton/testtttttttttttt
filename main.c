@@ -72,9 +72,9 @@ void main(void) {
             fsm_manual();
 
             scan_key_matrix_with_uart(); // 8 button
-            DisplayDataReceive();
-            UartDataReceiveProcess();
-
+//            DisplayDataReceive();
+//            UartDataReceiveProcess();
+            DisplayLcdScreen();
         }
 
 
@@ -121,7 +121,8 @@ void AppTrafficLight() {
             setRed1();
             setGreen2();
             display_led(timeOf7Seg1);
-
+            LcdPrintStringS(0,0,"TRAFFIC PROJECT");
+            LcdPrintStringS(1,0,"SYSTEM'S WORKING");
             statusOfLight = PHASE1;
             break;
         case PHASE1: //RED1 YELLOW2 
